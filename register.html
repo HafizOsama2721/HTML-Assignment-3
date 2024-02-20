@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <nav>
+          <table
+            border="1"
+            style="text-align: center; margin: auto; width: 50%; height: 50%"
+          >
+            <tr>
+              <th>Umair Network</th>
+              <td><a href="index.html">Home</a></td>
+              <td><a href="about.html">About</a></td>
+              <td><a href="gallery.html">Gallery</a></td>
+              <td><a href="media.html">Media</a></td>
+              <td><a href="contact.html">Contact</a></td>
+              <td><a href="login.html">Login</a></td>
+              <td><a href="register.html">Register</a></td>
+            </tr>
+          </table>
+        </nav>
+      </header>
+    </div>
+    <hr />
+    <main>
+      <center>
+        <h1>This is Login page</h1>
+        <hr />
+        <h3>Please register to continue</h3>
+        <p>All the fields are required.</p>
+        <hr />
+        <section>
+          <form>
+            <fieldset
+              style="
+                width: 250px;
+                height: 530px;
+                text-align: left;
+                padding-top: 2%;
+              "
+            >
+              <legend>Register</legend>
+              <label for="fullname">Full Name:</label><br />
+              <input type="fullname" name="fullname" id="fullname" placeholder="Full Name" required/><br /><br />
+              <label for="email">Email:</label><br />
+              <input type="email" name="email" id="email" placeholder="Email" required/><br /><br />
+              <label for="password">Password:</label><br />
+              <input type="password" name="password" id="password" placeholder="Password" required/><br /><br />
+              <option value="gender" name="">Gender:</option>
+              <label>Male: <input id="male" type="radio" name="male-female" value="male" checked/></label>
+              <label>Female: <input id="female" type="radio" name="male-female" value="female"/></label><br><br>
+              <option value="hobbies">Hobbies:</option>
+              <label for="music">Music: <input type="checkbox"  value="music" checked></label>
+              <label for="music">Art: <input type="checkbox"  value="art"></label>
+              <label for="music">Painting: <input type="checkbox"  value="painting"></label><br><br>
+              <label for="country">Country:</label>
+              <select name="country" id="country">
+                <option value="pk">Pakistan</option>
+                <option value="ind">India</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="cand">Canada</option>
+              </select><br><br>
+              <label for="birthday">DOB:</label><br>
+              <input type="date" name="birthday" id="birthday"><br><br>
+              <label for="myfile">Upload your photo:</label><br>
+              <input type="file" name="myfile" id="myfile"><br><br>
+              <input type="button" value="Register"><br><br>
+              <a href="#">Already a user?</a>
+            </fieldset>
+          </form>
+        </section>
+      </center>
+    </main>
+    <hr>
+    <footer>
+        <center>
+            <p>Copyright &copy; 2024. All rights reserved.</p>
+        </center>
+        
+    </footer>
+  </body>
+</html>
